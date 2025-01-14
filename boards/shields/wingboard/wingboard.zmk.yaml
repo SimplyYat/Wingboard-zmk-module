@@ -1,0 +1,11 @@
+file_format: "1"
+id: wingboard
+name: Wingboard
+type: shield
+url: https://github.com/SimplyYat/Wingboard
+requires: [pro_micro]
+exposes: [nice_view_header]
+features:
+  - keys
+  - display
+  - encoder

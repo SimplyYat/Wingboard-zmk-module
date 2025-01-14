@@ -1,0 +1,6 @@
+if SHIELD_WINGBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Wingboard"
+
+endif
