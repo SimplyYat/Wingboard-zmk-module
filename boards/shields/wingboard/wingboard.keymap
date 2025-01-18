@@ -82,13 +82,21 @@
           //               |      |      |      |      | |      |      |      |      |
           //               `---------------------------' '---------------------------'
           bindings = <
-              &kp K_SLEEP &trans &trans &trans &trans               &trans &trans       &trans     &trans       &trans
+              &kp K_SLEEP &trans &trans &trans &trans               &studio_unlock &trans       &trans     &trans       &trans
               &trans      &trans &trans &trans &trans               &trans &trans       &trans     &trans       &trans
               &trans      &trans &trans &trans &trans               &trans &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &trans
               &trans      &trans &trans &trans &trans               &trans &kp C_PREV   &kp C_PP   &kp C_NEXT   &trans
                                  &trans &trans &trans &trans &trans &trans &trans       &trans
             >;
           };
+
+          additional_layer1 {
+            status = "reserved";
+          }
+
+          additional_layer2 {
+            status = "reserved";
+          }
     };
 };
 
