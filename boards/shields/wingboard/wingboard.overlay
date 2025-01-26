@@ -1,9 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "wingboard-layouts.dtsi"
 
 / {
+    &physical_layout0 {
+        transform = <&matrix_transform0>;
+    };
+
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 
     center_encoder: center_encoder {
