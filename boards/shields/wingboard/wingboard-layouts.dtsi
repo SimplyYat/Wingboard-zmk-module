@@ -6,16 +6,16 @@
         display-name = "Default";
 
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100  100   25       0     0     0>
-            , <&key_physical_attrs 100 100  250    0       0     0     0>
-            , <&key_physical_attrs 100 100  350    0       0     0     0>
-            , <&key_physical_attrs 100 100  450   15       0     0     0>
-            , <&key_physical_attrs 100 100  550   45       0     0     0>
-            , <&key_physical_attrs 100 100  800   45       0     0     0>
-            , <&key_physical_attrs 100 100  900   15       0     0     0>
-            , <&key_physical_attrs 100 100 1000    0       0     0     0>
-            , <&key_physical_attrs 100 100 1100    0       0     0     0>
-            , <&key_physical_attrs 100 100 1250   25       0     0     0>
+            = <&key_physical_attrs 100 100  100   25       0     0     1500>
+            , <&key_physical_attrs 100 100  250    0       0     0     2000>
+            , <&key_physical_attrs 100 100  350    0       0     0     2000>
+            , <&key_physical_attrs 100 100  450   15       0     0     2000>
+            , <&key_physical_attrs 100 100  550   45       0     0     2000>
+            , <&key_physical_attrs 100 100  800   45       0     0     (-2000)>
+            , <&key_physical_attrs 100 100  900   15       0     0     (-2000)>
+            , <&key_physical_attrs 100 100 1000    0       0     0     (-2000)>
+            , <&key_physical_attrs 100 100 1100    0       0     0     (-2000)>
+            , <&key_physical_attrs 100 100 1250   25       0     0     (-1500)>
             , <&key_physical_attrs 100 100   75  125       0     0     0>
             , <&key_physical_attrs 100 100  210  100       0     0     0>
             , <&key_physical_attrs 100 100  310  100       0     0     0>
