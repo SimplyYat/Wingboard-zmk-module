@@ -8,7 +8,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: wingboard nice_view
+    shield: wingboard nice_view nice_luffy_wanted
 #   - board: nice_nano_v2
 #     shield: corne_left
     snippet: studio-rpc-usb-uart
